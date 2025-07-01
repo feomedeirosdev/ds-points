@@ -98,6 +98,23 @@ Este projeto organiza e documenta as features utilizadas em modelos de dados de 
 - **`avgChatLive`:**
 - **`productMaxQtde`:**
 
+**Horários Features**
+
+- **`dtRef`:**
+- **`idCustomer`:**
+- **`qtdePointsManha`:**
+- **`qtdePointsTarde`:**
+- **`qtdePointsNoite`:**
+- **`pctPointsManha`:**
+- **`pctPointsTarde`:**
+- **`pctPointsNoite`:**
+- **`qtdeTransactionsManha`:**
+- **`qtdeTransactionsTarde`:**
+- **`qtdeTransactionsNoite`:**
+- **`pctTransactionsManha`:**
+- **`pctTransactionsTarde`:**
+- **`pctTransactionsNoite`:**
+
 ## KanBan Status
 
 ### General Features
@@ -176,6 +193,27 @@ Este projeto organiza e documenta as features utilizadas em modelos de dados de 
 
 ---
 
+### Horários da Live
+
+| Feature                 | Status |
+| ----------------------- | ------ |
+| `dtRef`                 | 🟢     |
+| `idCustomer`            | 🟢     |
+| `qtdePointsManha`       | 🟢     |
+| `qtdePointsTarde`       | 🟢     |
+| `qtdePointsNoite`       | 🟢     |
+| `pctPointsManha`        | 🟢     |
+| `pctPointsTarde`        | 🟢     |
+| `pctPointsNoite`        | 🟢     |
+| `qtdeTransactionsManha` | 🟢     |
+| `qtdeTransactionsTarde` | 🟢     |
+| `qtdeTransactionsNoite` | 🟢     |
+| `pctTransactionsManha`  | 🟢     |
+| `pctTransactionsTarde`  | 🟢     |
+| `pctTransactionsNoite`  | 🟢     |
+
+---
+
 ### Transações
 
 | Feature                          | Descrição                                               | Status |
@@ -192,15 +230,6 @@ Este projeto organiza e documenta as features utilizadas em modelos de dados de 
 
 ---
 
-### Horários da Live
-
-| Feature                             | Descrição                                       | Status |
-| ----------------------------------- | ----------------------------------------------- | ------ |
-| `quantidade_transacoes_por_horario` | Número total de transações por faixa de horário | 🔴     |
-| `quantidade_pontos_por_horario`     | Pontos totais por faixa de horário              | 🔴     |
-
----
-
 ## Convenções
 
 - Nome de variáveis em `snake_case`
@@ -214,11 +243,11 @@ Este projeto organiza e documenta as features utilizadas em modelos de dados de 
 Este `README.md` será atualizado conforme novas features forem implementadas e documentadas.  
 Você pode alterar o status de cada linha conforme avança no projeto:
 
-- 🟢 `To Do`
+- 🔴 `To Do`
 - 🟠 `In Progress`
-- 🔴 `Done`
+- 🟢 `Done`
 
 ---
 
 > **Dica de ouro**: Feature boa é feature que gera sinal. Feature sem sinal é só coluna no CSV.  
-> Mate-as sem piedade. 🧹
+> Mate-as sem piedade.
