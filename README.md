@@ -1,16 +1,45 @@
+# DS Points
+
+## **Esquema de Dados – `database.db`**
+
+Abaixo estão listadas as tabelas do banco de dados e suas respectivas variáveis.
+
+**Tabela: `customers`**
+
+- **`idCustomer`** (`TEXT`): Identificador único do cliente.
+- **`PointsCustomer`** (`BIGINT`): Total de pontos acumulados pelo cliente (no momento da coleta).
+- **`flEmail`** (`BIGINT`): Flag indicando presença de e-mail cadastrado (0 = não, 1 = sim).
+
+**Tabela: `transactions`**
+
+- **`idTransaction`** (`TEXT`): Identificador único da transação realizada.
+- **`idCustomer`** (`TEXT`): Chave estrangeira referenciando o cliente que realizou a transação.
+- **`dtTransaction`** (`TEXT`): Data e hora da transação (string no formato ISO ou semelhante).
+- **`pointsTransaction`** (`BIGINT`): Quantidade de pontos atribuídos à transação.
+
+**Tabela: `transactions_product`**
+
+- **`idTransactionCart`** (`TEXT`): dentificador único do item no carrinho da transação.
+- **`idTransaction`** (`TEXT`): Chave estrangeira referenciando a transação associada ao item.
+- **`NameProduct`** (`TEXT`): Nome do produto adquirido na transação.
+- **`QuantityProduct`** (`BIGINT`): Quantidade do produto adquirida na transação.
+
+---
+
 # 🧠 DS Points – Feature Store Documentation
 
 Este projeto organiza e documenta as features utilizadas em modelos de dados de pontos, transações, comportamento e engajamento.
 
 ---
 
-## 🧩 Organização do Feature Store 🟢 🟠 🔴
+## 🧩 Organização do Feature Store
 
 ### 📁 General Features
 
 | Feature              | Descrição                                    | Status |
 | -------------------- | -------------------------------------------- | ------ |
 | `email`              | Identificador do usuário                     | 🔴     |
+| `valor_pontos`       | Quantidade de pontos dousuário               | 🔴     |
 | `idade_na_base_dias` | Quantidade de dias desde o primeiro registro | 🔴     |
 | `recencia_dias`      | Dias desde a última interação                | 🔴     |
 | `frequencia_dias`    | Frequência média de interação (dias)         | 🔴     |
