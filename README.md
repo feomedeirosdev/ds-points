@@ -26,27 +26,41 @@ Abaixo estão listadas as tabelas do banco de dados e suas respectivas variávei
 
 ---
 
-# 🧠 DS Points – Feature Store Documentation
+# DS Points – Feature Store Documentation
 
 Este projeto organiza e documenta as features utilizadas em modelos de dados de pontos, transações, comportamento e engajamento.
 
 ---
 
-## 🧩 Organização do Feature Store
+## Organização das Features Store
 
-### 📁 General Features
+**General Feature**
 
-| Feature              | Descrição                                    | Status |
-| -------------------- | -------------------------------------------- | ------ |
-| `email`              | Identificador do usuário                     | 🔴     |
-| `valor_pontos`       | Quantidade de pontos dousuário               | 🔴     |
-| `idade_na_base_dias` | Quantidade de dias desde o primeiro registro | 🔴     |
-| `recencia_dias`      | Dias desde a última interação                | 🔴     |
-| `frequencia_dias`    | Frequência média de interação (dias)         | 🔴     |
+- **`idCustomer`:** identificador único do item no carrinho da transação.
+- **`recendiaDias`:**
+- **`frequenciaDias`:**
+- **`valorPoints`:**
+- **`idadeBaseDias`:**
+- **`tempoBaseDias`:**
+- **`flEmail`:**
+
+## KanBan Status
+
+### General Features
+
+| Feature           | Status |
+| ----------------- | ------ |
+| `idCustomer`      | 🟢     |
+| `recendiaDias`    | 🟢     |
+| `frequenciaDias:` | 🟢     |
+| `valorPoints:`    | 🟢     |
+| `idadeBaseDias:`  | 🟢     |
+| `tempoBaseDias:`  | 🟢     |
+| `flEmail:`        | 🟢     |
 
 ---
 
-### 🎯 Pontos (D7, D14, D28, Vida)
+### Pontos (D7, D14, D28, Vida)
 
 | Feature                     | Descrição                                              | Status |
 | --------------------------- | ------------------------------------------------------ | ------ |
@@ -57,7 +71,7 @@ Este projeto organiza e documenta as features utilizadas em modelos de dados de 
 
 ---
 
-### 🛒 Transações
+### Transações
 
 | Feature                          | Descrição                                               | Status |
 | -------------------------------- | ------------------------------------------------------- | ------ |
@@ -73,7 +87,7 @@ Este projeto organiza e documenta as features utilizadas em modelos de dados de 
 
 ---
 
-### 📦 Produtos
+### Produtos
 
 | Feature                         | Descrição                                           | Status |
 | ------------------------------- | --------------------------------------------------- | ------ |
@@ -83,7 +97,7 @@ Este projeto organiza e documenta as features utilizadas em modelos de dados de 
 
 ---
 
-### ⏰ Horários da Live
+### Horários da Live
 
 | Feature                             | Descrição                                       | Status |
 | ----------------------------------- | ----------------------------------------------- | ------ |
@@ -92,7 +106,7 @@ Este projeto organiza e documenta as features utilizadas em modelos de dados de 
 
 ---
 
-## ✅ Convenções
+## Convenções
 
 - Nome de variáveis em `snake_case`
 - Colunas com valores numéricos representam **contagens**, **médias**, **somatórios** ou **proporções**
@@ -100,7 +114,7 @@ Este projeto organiza e documenta as features utilizadas em modelos de dados de 
 
 ---
 
-## 🗂️ Atualização
+## Atualização
 
 Este `README.md` será atualizado conforme novas features forem implementadas e documentadas.  
 Você pode alterar o status de cada linha conforme avança no projeto:
