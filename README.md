@@ -61,6 +61,43 @@ Este projeto organiza e documenta as features utilizadas em modelos de dados de 
 - **`pointsResgatadosVida`:**
 - **`pointsPorDia`:**
 
+**Products Feature**
+
+- **`dt_ref`:**
+- **`idCustomer`:**
+- **`qtdeChatMessage`:**
+- **`qtdeListadepresença`:**
+- **`qtdePresençaStreak`:**
+- **`qtdeRLover`:**
+- **`qtdeResgatarPonei`:**
+- **`qtdeAirflowLover`:**
+- **`qtdeTrocaDePontosStreamElements`:**
+- **`qtdeChurn_5pp`:**
+- **`qtdeChurn_2pp`:**
+- **`qtdeChurn_10pp`:**
+- **`pointsChatMessage`:**
+- **`pointsListaDePresença`:**
+- **`pointsPresençaStreak`:**
+- **`pointsRLover`:**
+- **`pointsResgatarPonei`:**
+- **`pointsAirflowLover`:**
+- **`pointsTrocaDePontosStreamElements`:**
+- **`pointsChurn_5pp`:**
+- **`pointsChurn_2pp`:**
+- **`pointsChurn_10pp`:**
+- **`pctChatMessage`:**
+- **`pctListaDePresença`:**
+- **`pctPresençaStreak`:**
+- **`pctRLover`:**
+- **`pctResgatarPonei`:**
+- **`pctAirflowLover`:**
+- **`pctTrocaDePontosStreamElements`:**
+- **`pctChurn_5pp`:**
+- **`pctChurn_2pp`:**
+- **`pctChurn_10pp`:**
+- **`avgChatLive`:**
+- **`productMaxQtde`:**
+
 ## KanBan Status
 
 ### General Features
@@ -98,6 +135,47 @@ Este projeto organiza e documenta as features utilizadas em modelos de dados de 
 
 ---
 
+### Produtos
+
+| Feature                             | Status |
+| ----------------------------------- | ------ |
+| `dt_ref`                            | 🟢     |
+| `idCustomer`                        | 🟢     |
+| `qtdeChatMessage`                   | 🟢     |
+| `qtdeListadepresença`               | 🟢     |
+| `qtdePresençaStreak`                | 🟢     |
+| `qtdeRLover`                        | 🟢     |
+| `qtdeResgatarPonei`                 | 🟢     |
+| `qtdeAirflowLover`                  | 🟢     |
+| `qtdeTrocaDePontosStreamElements`   | 🟢     |
+| `qtdeChurn_5pp`                     | 🟢     |
+| `qtdeChurn_2pp`                     | 🟢     |
+| `qtdeChurn_10pp`                    | 🟢     |
+| `pointsChatMessage`                 | 🟢     |
+| `pointsListaDePresença`             | 🟢     |
+| `pointsPresençaStreak`              | 🟢     |
+| `pointsRLover`                      | 🟢     |
+| `pointsResgatarPonei`               | 🟢     |
+| `pointsAirflowLover`                | 🟢     |
+| `pointsTrocaDePontosStreamElements` | 🟢     |
+| `pointsChurn_5pp`                   | 🟢     |
+| `pointsChurn_2pp`                   | 🟢     |
+| `pointsChurn_10pp`                  | 🟢     |
+| `pctChatMessage`                    | 🟢     |
+| `pctListaDePresença`                | 🟢     |
+| `pctPresençaStreak`                 | 🟢     |
+| `pctRLover`                         | 🟢     |
+| `pctResgatarPonei`                  | 🟢     |
+| `pctAirflowLover`                   | 🟢     |
+| `pctTrocaDePontosStreamElements`    | 🟢     |
+| `pctChurn_5pp`                      | 🟢     |
+| `pctChurn_2pp`                      | 🟢     |
+| `pctChurn_10pp`                     | 🟢     |
+| `avgChatLive`                       | 🟢     |
+| `productMaxQtde`                    | 🟢     |
+
+---
+
 ### Transações
 
 | Feature                          | Descrição                                               | Status |
@@ -111,16 +189,6 @@ Este projeto organiza e documenta as features utilizadas em modelos de dados de 
 | `tempo_entre_msgs_no_dia_median` | Tempo mediano entre 1ª e última mensagem no mesmo dia   | 🔴     |
 | `tempo_entre_msgs_no_dia_sum`    | Soma do tempo entre mensagens no mesmo dia              | 🔴     |
 | `indice_forca_relativa`          | Índice composto para medir consistência de participação | 🔴     |
-
----
-
-### Produtos
-
-| Feature                         | Descrição                                           | Status |
-| ------------------------------- | --------------------------------------------------- | ------ |
-| `quantidade_pontos_por_produto` | Total de pontos associados a cada produto           | 🔴     |
-| `percentual_pontos_por_produto` | Proporção dos pontos totais associados a um produto | 🔴     |
-| `quantidade_chat_msg_por_live`  | Número de mensagens enviadas por live               | 🔴     |
 
 ---
 
