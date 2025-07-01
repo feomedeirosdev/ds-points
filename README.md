@@ -115,6 +115,21 @@ Este projeto organiza e documenta as features utilizadas em modelos de dados de 
 - **`pctTransactionsTarde`:**
 - **`pctTransactionsNoite`:**
 
+**Transações Fearures**
+
+- **`dtRef`:**
+- **`idCustomer`:**
+- **`qtdeDiasD7`:**
+- **`qtdeDiasD14`:**
+- **`qtdeDiasD21`:**
+- **`qtdeDiasVida`:**
+- **`avgLiveMinutes`:**
+- **`sumLiveMinutes`:**
+- **`minLiveMinutes`:**
+- **`maxLiveMinutes`:**
+- **`qtdeTransacaoVida`:**
+- **`avgTransactionDias`:**
+
 ## KanBan Status
 
 ### General Features
@@ -216,25 +231,20 @@ Este projeto organiza e documenta as features utilizadas em modelos de dados de 
 
 ### Transações
 
-| Feature                          | Descrição                                               | Status |
-| -------------------------------- | ------------------------------------------------------- | ------ |
-| `frequencia_dias`                | Frequência média de transações em dias                  | 🔴     |
-| `quantidade_total_transacoes`    | Total de transações realizadas                          | 🔴     |
-| `transacoes_por_dia_de_vida`     | Média de transações por dia ativo                       | 🔴     |
-| `tempo_entre_msgs_no_dia_max`    | Tempo máximo entre 1ª e última mensagem no mesmo dia    | 🔴     |
-| `tempo_entre_msgs_no_dia_min`    | Tempo mínimo entre 1ª e última mensagem no mesmo dia    | 🔴     |
-| `tempo_entre_msgs_no_dia_avg`    | Tempo médio entre 1ª e última mensagem no mesmo dia     | 🔴     |
-| `tempo_entre_msgs_no_dia_median` | Tempo mediano entre 1ª e última mensagem no mesmo dia   | 🔴     |
-| `tempo_entre_msgs_no_dia_sum`    | Soma do tempo entre mensagens no mesmo dia              | 🔴     |
-| `indice_forca_relativa`          | Índice composto para medir consistência de participação | 🔴     |
-
----
-
-## Convenções
-
-- Nome de variáveis em `snake_case`
-- Colunas com valores numéricos representam **contagens**, **médias**, **somatórios** ou **proporções**
-- Variáveis categóricas devem ser tratadas via `OneHotEncoding` ou `TargetEncoding`, dependendo do modelo
+| Feature              | Status |
+| -------------------- | ------ |
+| `dtRef`              | 🟢     |
+| `idCustomer`         | 🟢     |
+| `qtdeDiasD7`         | 🟢     |
+| `qtdeDiasD14`        | 🟢     |
+| `qtdeDiasD21`        | 🟢     |
+| `qtdeDiasVida`       | 🟢     |
+| `avgLiveMinutes`     | 🟢     |
+| `sumLiveMinutes`     | 🟢     |
+| `minLiveMinutes`     | 🟢     |
+| `maxLiveMinutes`     | 🟢     |
+| `qtdeTransacaoVida`  | 🟢     |
+| `avgTransactionDias` | 🟢     |
 
 ---
 
@@ -246,8 +256,3 @@ Você pode alterar o status de cada linha conforme avança no projeto:
 - 🔴 `To Do`
 - 🟠 `In Progress`
 - 🟢 `Done`
-
----
-
-> **Dica de ouro**: Feature boa é feature que gera sinal. Feature sem sinal é só coluna no CSV.  
-> Mate-as sem piedade.
