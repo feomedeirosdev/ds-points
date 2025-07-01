@@ -44,6 +44,23 @@ Este projeto organiza e documenta as features utilizadas em modelos de dados de 
 - **`tempoBaseDias`:**
 - **`flEmail`:**
 
+**Points Feature**
+
+- **`idCustomer`:** identificador único do item no carrinho da transação.
+- **`saldoPoints`:**
+- **`pointsAcumuladosD7`:**
+- **`pointsResgatadosD7`:**
+- **`pointsAcumuladosD14`:**
+- **`pointsResgatadosD14`:**
+- **`pointsAcumuladosD21`:**
+- **`pointsResgatadosD21`:**
+- **`pointsAcumulado`:**
+- **`pointsResgatados`:**
+- **`saldoPoints:1`:**
+- **`pointsAcumuladosVida`:**
+- **`pointsResgatadosVida`:**
+- **`pointsPorDia`:**
+
 ## KanBan Status
 
 ### General Features
@@ -60,14 +77,24 @@ Este projeto organiza e documenta as features utilizadas em modelos de dados de 
 
 ---
 
-### Pontos (D7, D14, D28, Vida)
+### Pontos D7, D14, D21, Vida (D28)
 
-| Feature                     | Descrição                                              | Status |
-| --------------------------- | ------------------------------------------------------ | ------ |
-| `pontos_por_dia_de_vida`    | Total de pontos acumulados dividido pela idade na base | 🔴     |
-| `total_pontos_acumulados`   | Soma total de pontos ganhos pelo usuário               | 🔴     |
-| `total_pontos_resgatados`   | Soma total de pontos utilizados/resgatados             | 🔴     |
-| `quantidade_pontos_por_dia` | Pontos médios obtidos por dia                          | 🔴     |
+| Feature                | Status |
+| ---------------------- | ------ |
+| `idCustomer`           | 🟢     |
+| `saldoPoints`          | 🟢     |
+| `pointsAcumuladosD7`   | 🟢     |
+| `pointsResgatadosD7`   | 🟢     |
+| `pointsAcumuladosD14`  | 🟢     |
+| `pointsResgatadosD14`  | 🟢     |
+| `pointsAcumuladosD21`  | 🟢     |
+| `pointsResgatadosD21`  | 🟢     |
+| `pointsAcumulado`      | 🟢     |
+| `pointsResgatados`     | 🟢     |
+| `saldoPoints:1`        | 🟢     |
+| `pointsAcumuladosVida` | 🟢     |
+| `pointsResgatadosVida` | 🟢     |
+| `pointsPorDia`         | 🟢     |
 
 ---
 
