@@ -1,0 +1,104 @@
+# Arquivos de sistema
+.DS_Store
+Thumbs.db
+ehthumbs.db
+desktop.ini
+*.swp
+*.swo
+
+# Ambientes virtuais
+venv/
+.env/
+.venv/
+env/
+ENV/
+*.env
+*.env.*
+
+# PyCharm / VSCode / Jupyter / Outros editores
+.idea/
+.vscode/
+.ipynb_checkpoints/
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Arquivos de log e caches
+*.log
+*.tmp
+*.bak
+*.cache
+*.sqlite-shm
+*.sqlite-wal
+
+# Notebooks temporários
+*.nbconvert.ipynb
+*_checkpoint.ipynb
+
+# Dados de banco de dados
+*.sqlite
+*.sqlite3
+*.db
+*.db3
+*.mdb
+*.accdb
+
+# Arquivos do Office e similares
+*.doc
+*.docx
+*.xls
+*.xlsx
+*.ppt
+*.pptx
+*.odt
+*.ods
+*.odp
+
+# Arquivos de imagem - bitmap
+*.png
+*.jpg
+*.jpeg
+*.gif
+*.bmp
+*.tif
+*.tiff
+*.webp
+
+# Arquivos de imagem - vetores
+*.svg
+*.eps
+*.ai
+*.ps
+*.pdf
+
+# Arquivos de vídeo / áudio (em geral não versionáveis)
+*.mp4
+*.mov
+*.avi
+*.mkv
+*.mp3
+*.wav
+*.flac
+
+# Arquivos executáveis / compilados
+*.exe
+*.dll
+*.so
+*.out
+*.app
+*.o
+*.a
+*.class
+*.jar
+
+# Arquivos compactados
+*.zip
+*.tar.gz
+*.rar
+*.7z
+*.gz
+
+# Arquivos de projeto Jupyter
+.ipynb_checkpoints/
+profile_default/
