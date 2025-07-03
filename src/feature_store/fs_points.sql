@@ -53,4 +53,8 @@ WITH tb_pontos_d AS (
 
 )
 
-SELECT * FROM tb_join LIMIT 10
+SELECT
+   '{date}' AS dtRef,
+   *
+
+FROM tb_join
