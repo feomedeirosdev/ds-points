@@ -30,7 +30,7 @@ WITH tb_rfv AS (
 )
 
 SELECT
-   '{date}' AS dt_ref,
+   '{date}' AS dtRef,
    t1.*,
    t2.idadeBaseDias,
    t2.tempoBaseDias,
