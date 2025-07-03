@@ -85,7 +85,7 @@ WITH tb_transactions_product AS (
 )
 
 SELECT
-   '{date}' AS dt_ref,
+   '{date}' AS dtRef,
    t1.*,
    t2.NameProduct AS productMaxQtde
 
